@@ -34,13 +34,13 @@ Make sure you have the following installed and set up:
 
 ### ⚙️ Configuración (Configuration)
 
-1.  **Clone the repository (if you have the code on GitHub):**
+1.  **Clone the repository:**
     ```bash
     git clone https://github.com/vectorc0de/super-pets
     cd super-pets
     ```
 
-2.  **Set up your virtual environment (¡altamente recomendado!):**
+2.  **Set up your virtual environment:**
     ```bash
     python -m venv venv
     source venv/bin/activate  # macOS/Linux
