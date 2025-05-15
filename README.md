@@ -2,25 +2,25 @@
 
 This Flask-powered backend provides a comprehensive API for managing an animal shelter's data, including people (clients, contacts) and the adorable pets under their care. It leverages Supabase for its database and storage needs, **Stripe for payment processing**, and **OpenAI for intelligent data handling**, offering a robust and innovative solution.
 
-## ✨ ¡Un Vistazo Perruno con Inteligencia! 🐶🐱🐰🤖💳
+## ✨ Overview to Super Pets 🐶🐱🐰🤖💳
 
 This backend is the intelligent heart of the animal shelter system, providing all the necessary tools to manage people, their furry (and not-so-furry) friends, and related information, now with added superpowers!
 
-* **👤 Gestión de Personas:** Add, view, update, and delete information about clients, adopters, and other contacts. Keep track of their details like name, contact information, and address.
-* **🐕🐈 Gestión de Mascotas:** Register new pets with details like name, breed, type, sex, color, background story, and current status. Easily retrieve, modify, and remove pet records.
-* **🔗 Relaciones Poderosas:** Seamlessly link pets to their owners or caretakers, providing a clear connection between people and animals.
-* **🖼️ Subida de Fotos:** Upload adorable photos of the pets, making their profiles even more engaging.
-* **📤 Exportación de Datos:** Easily export lists of people and pets for reporting or other purposes.
-* **🤖 Inteligencia Artificial con OpenAI:** **Intelligently processes uploaded CSV files for both people and pets using OpenAI's GPT models.** This includes data formatting and handling potential inconsistencies.
-* **💳 Soporte para Stripe:** **Integrates with Stripe for handling donations, adoption fees, or other payment functionalities**, streamlining financial transactions.
-* **🔒 Autenticación Segura:** Ensures that only logged-in clients can access and manage their associated data.
-* **☁️ Potenciado por Supabase:** Utilizes Supabase for a scalable and real-time backend, handling database and storage efficiently.
+* **👤 People Management:** Add, view, update, and delete information about clients, adopters, and other contacts. Keep track of their details like name, contact information, and address.
+* **🐕🐈 Pet Management:** Register new pets with details like name, breed, type, sex, color, background story, and current status. Easily retrieve, modify, and remove pet records.
+* **🔗 Powerful Relationships:** Seamlessly link pets to their owners or caretakers, providing a clear connection between people and animals.
+* **🖼️ Photo Uploads:** Upload adorable photos of the pets, making their profiles even more engaging.
+* **📤 Data Export:** Easily export lists of people and pets for reporting or other purposes.
+* **🤖 AI-Powered Data Handling (OpenAI):** **Intelligently processes uploaded CSV files for both people and pets using OpenAI's GPT models.** This includes data formatting and handling potential inconsistencies.
+* **💳 Stripe Payment Support:** **Integrates with Stripe for handling donations, adoption fees, or other payment functionalities**, streamlining financial transactions.
+* **🔒 Secure Authentication:** Ensures that only logged-in clients can access and manage their associated data.
+* **☁️ Powered by Supabase:** Utilizes Supabase for a scalable and real-time backend, handling database and storage efficiently.
 
-## 🚀 ¡Manos a la Obra con Inteligencia! (Getting Started)
+## 🚀 Getting Started
 
 Ready to unleash the intelligent power of this backend? Here's how to get it running:
 
-### 🛠️ Requisitos (Prerequisites)
+### 🛠️ Prerequisites
 
 Make sure you have the following installed and set up:
 
@@ -32,11 +32,11 @@ Make sure you have the following installed and set up:
 * **Stripe Account:** Set up a Stripe account and obtain your API keys. 💳
 * **OpenAI API Key:** You'll need an API key from OpenAI to utilize the intelligent data processing features. 🤖🔑
 
-### ⚙️ Configuración (Configuration)
+### ⚙️ Configuration
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/vectorc0de/super-pets
+    git clone [https://github.com/vectorc0de/super-pets](https://github.com/vectorc0de/super-pets)
     cd super-pets
     ```
 
@@ -66,7 +66,7 @@ Make sure you have the following installed and set up:
 
     The backend API should now be running, typically on `http://127.0.0.1:5000/`.
 
-### 🗺️ Rutas de la API (API Endpoints)
+### 🗺️ API Endpoints
 
 Here's an updated overview of the available API endpoints:
 
@@ -90,14 +90,14 @@ Here's an updated overview of the available API endpoints:
 
 **Remember to check the code for the specific request body and response formats for each endpoint!**
 
-## 🤖 Inteligencia Perruna (AI-Powered Features)
+## 🤖 AI-Powered Features (OpenAI)
 
 This backend leverages the power of OpenAI to streamline data import:
 
 * **Intelligent CSV Processing:** Upload CSV files containing pet or people data, and the backend uses GPT models to understand and format the data, even with minor inconsistencies or missing columns.
 * **Data Normalization:** Automatically attempts to normalize data fields like sex and gender for consistency.
 
-## 💳 ¡Apoya el Refugio! (Stripe Integration)
+## 💳 Stripe Integration
 
 The backend includes support for Stripe, allowing you to implement features such as:
 
@@ -107,7 +107,7 @@ The backend includes support for Stripe, allowing you to implement features such
 
 **(Note: The specific Stripe API endpoints and implementation details would be within your application code, likely in a separate Blueprint or module.)**
 
-## 🤝 ¡Únete a la Manada Inteligente! (Contributing)
+## 🤝 Contributing
 
 We're always looking for ways to make this backend even smarter and more helpful! If you have ideas, find bugs, or want to contribute, especially with improving the AI integration or Stripe functionality, please:
 
@@ -118,10 +118,6 @@ We're always looking for ways to make this backend even smarter and more helpful
 5.  Push your branch to your fork. 🚀
 6.  Submit a pull request. 📤
 
-## 📜 Licencia (License)
+## 📜 License
 
-[Add your license here! For example: MIT License] 📝
-
----
-
-This backend is taking animal shelter management to the next level with the power of AI and seamless payment processing! We hope you find it incredibly useful! If you have any questions, don't hesitate to bark, meow, or even ask an AI! 😉 Greetings from a sunny morning in Barcelona, Anzoátegui! ☀️
+GPL v3
