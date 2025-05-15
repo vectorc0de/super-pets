@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Pet Adoption Invoice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .logo {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 30px;
+            background-image: url('{{ logo_url }}');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .footer {
+            font-size: 14px;
+            color: #777;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo"></div>
+        <h2 style="color: #daa520; margin-bottom: 25px;">Congratulations on Your New Furry Friend! 🐶🐱</h2>
+        <p style="font-size: 16px; margin-bottom: 40px;">We're so excited that you've chosen to adopt a pet with us! Here's the invoice for your adoption fee.</p>
+        <p style="font-size: 16px; margin-bottom: 10px;">{{ label }}</p>
+        <p style="font-size: 16px; margin-bottom: 40px;">Total Amount: <strong>${{ amount }}</strong></p>
+        <a href="{{ confirmation_url }}" style="background-color: #daa520; color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-size: 16px; display: inline-block; margin: 50px 0;">View Your Invoice</a>
+        <p class="footer">Thank you for giving a pet a loving home! If you have any questions or need more information, please don't hesitate to reach out.</p>
+    </div>
+</body>
+</html>

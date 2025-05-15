@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .logo {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto 30px;
+            background-image: url('{{ logo_url }}');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .footer {
+            font-size: 14px;
+            color: #777;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo"></div>
+        <h2 style="color: #daa520; margin-bottom: 25px;">Payment Confirmation 🐶🐱</h2>
+        <p style="font-size: 16px; margin-bottom: 10px;">Thank you for your generous donation!</p>
+        <p style="font-size: 16px; margin-bottom: 10px;">We appreciate your donation of <strong>${{ amount }}</strong> to <strong>{{ title }}</strong>.</p>
+        <p style="font-size: 16px; margin-bottom: 20px;">Your payment has been successfully processed.</p>
+        <p style="font-size: 16px; margin-top: 20px;">If you have any questions, feel free to reach out to us.</p>
+        <p style="font-size: 16px; margin-top: 20px;">Thank you for supporting our cause!</p>
+        <p class="footer">Your support makes a difference! 🐾</p>
+    </div>
+</body>
+</html>
